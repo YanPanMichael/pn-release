@@ -1,0 +1,52 @@
+{
+  "name": "pn-release",
+  "version": "0.0.1",
+  "description": "pnpm release tool",
+  "author": "YanPanMichael",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YanPanMichael/pn-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YanPanMichael/pn-release/issues",
+    "email": "1214863281@qq.com"
+  },
+  "homepage": "https://github.com/YanPanMichael/pn-release",
+  "files": [
+    "lib",
+    "bin",
+    "CHANGELOG.md"
+  ],
+  "bin": {
+    "qkrelease": "bin/cli.js"
+  },
+  "scripts": {
+    "changelog": "chanlog",
+    "release": "node bin/cli.js --skipBuild",
+    "format": "prettier --write .",
+    "build": "struk build --source=ts",
+    "docs": "docsify serve ./docs"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "keywords": [
+    "node",
+    "release"
+  ],
+  "dependencies": {
+    "chanlog": "^1.0.1",
+    "execa": "^5.1.1",
+    "minimist": "^1.2.5",
+    "path": "^0.12.7",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.3.8"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.4",
+    "prettier": "^2.6.0",
+    "struk": "^1.3.7"
+  }
+}
