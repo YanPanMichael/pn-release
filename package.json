@@ -1,6 +1,6 @@
 {
   "name": "pn-release",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "pnpm release tool",
   "author": "YanPanMichael",
   "license": "MIT",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "changelog": "chanlog",
-    "release": "node bin/cli.js --skipBuild",
+    "release": "node bin/cli.js",
     "format": "prettier --write .",
     "build": "struk build --source=ts",
     "docs": "docsify serve ./docs"
