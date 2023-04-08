@@ -15,6 +15,7 @@
   "homepage": "https://github.com/YanPanMichael/pn-release",
   "files": [
     "lib",
+    "dist",
     "bin",
     "CHANGELOG.md"
   ],
