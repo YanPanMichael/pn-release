@@ -20,7 +20,7 @@
     "CHANGELOG.md"
   ],
   "bin": {
-    "qkrelease": "bin/cli.js"
+    "pnrelease": "bin/cli.js"
   },
   "scripts": {
     "changelog": "chanlog",
