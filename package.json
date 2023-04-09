@@ -1,6 +1,6 @@
 {
   "name": "@yanp/pure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pnpm release tool",
   "author": "YanPanMichael",
   "license": "MIT",
@@ -12,6 +12,7 @@
     "url": "https://github.com/YanPanMichael/pn-release/issues",
     "email": "1214863281@qq.com"
   },
+  "main": "dist/pn-release.cjs",
   "homepage": "https://github.com/YanPanMichael/pn-release",
   "files": [
     "lib",
