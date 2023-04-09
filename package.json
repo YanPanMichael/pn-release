@@ -1,6 +1,6 @@
 {
-  "name": "pn-release",
-  "version": "1.0.0",
+  "name": "@yanp/pure",
+  "version": "1.0.1",
   "description": "pnpm release tool",
   "author": "YanPanMichael",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "CHANGELOG.md"
   ],
   "bin": {
-    "pnrelease": "bin/cli.js"
+    "pure": "bin/cli.js"
   },
   "scripts": {
     "changelog": "chanlog",
